@@ -123,7 +123,7 @@ a { color: inherit; }
 }
 .hero-bg {
   position: absolute; inset: -4%;
-  background: var(--red) url(img/brush-red.webp) center / cover no-repeat;
+  background: url(img/brush-red.webp) center / cover no-repeat, url(data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAABQBgCdASowABsAPtFWoU2oJCKiMBVaqQAaCWxmQEYWIf0H4Dj7MlttgAZAYmZQbrS/1korVyfFnSmoAAD+7dj8Jl+nGeBTUO8H1O1dTX/wQMiCTd0Gt9rrO4wZLGI5FSMuGKgvgotfnTYCZ0g75BZTpD4pYZ6oEK+YeS4Uu2xFxhC9nalYT2fP+0yosWT9s2zmk3ONL+IP0Etit95U6ypnX7CoTx163uaKqHa8YJGhrenYTU8SwFXj9Zo+m8AwV8ilTb/jwQfaCFF2SbW/GM+RuBXsvQ/lQAA=) center / cover no-repeat, var(--red);
   transform: translate3d(calc(var(--mx, 0) * -22px), calc(var(--my, 0) * -16px), 0) scale(1.02);
   transition: transform .9s var(--ease);
 }
